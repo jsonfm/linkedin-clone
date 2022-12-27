@@ -31,7 +31,7 @@ export function Header() {
         <HeaderOption title="Messaging" Icon={MessageIcon}/>
         <HeaderOption title="Notifications" Icon={NotificationsIcon}/>
         <HeaderOption
-          avatar="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+          avatar=" "
           title="me"
         />
       </div>
