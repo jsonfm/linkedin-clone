@@ -1,0 +1,22 @@
+.post {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.post__header {
+    display: flex;
+    gap: 10px;
+}
+
+.post__body {
+    margin: 20px 0;
+    min-height: 30px;
+}
+
+
+
+.post__buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

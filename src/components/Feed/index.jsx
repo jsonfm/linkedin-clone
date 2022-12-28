@@ -4,7 +4,7 @@ import ImageIcon from '@mui/icons-material/Image';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EventIcon from '@mui/icons-material/Event';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
-
+import { Post } from "../Post";
 import { InputOption } from "../InputOption";
 import "./index.css";
 
@@ -48,6 +48,15 @@ export function Feed() {
                     color="#7FC15E"
                 />
             </div>
+        </div>
+        <div class="feed__posts">
+            <Post
+                name="post"
+                description="aleluya"
+            />
+        </div>
+        <div class="feed__news">
+            ...
         </div>
     </div>
   )

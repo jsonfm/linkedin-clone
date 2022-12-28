@@ -12,6 +12,7 @@ import "./index.css";
 export function Header() {
   return (
     <div className="header">
+      <div className="nav container">
       <div className="header__left">
         <img 
           src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" 
@@ -34,6 +35,7 @@ export function Header() {
           avatar=" "
           title="me"
         />
+      </div>
       </div>
     </div>
   )
